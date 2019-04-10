@@ -14,7 +14,7 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder, MinMaxScaler, R
 
 ############################## INITIAL DATA READ, SETUP, AND PREPROCESSING #######################################
 # Reads in csv file, encoding argument avoids unicode decode error
-df_full = pd.read_csv('C:\\Users\cmcelmury\Documents\Alight\Portland_AirBnb_Listings_Test.csv',
+df_full = pd.read_csv('https://github.com/cortmcelmury/air_bnb/blob/master/data/Portland_AirBnb_Listings_Test.csv',
                       encoding='ISO-8859-1', index_col='id')
 
 # Look at structure of dataframe (num columns, types, and nulls)
