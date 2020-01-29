@@ -103,7 +103,7 @@ X = df_coded.drop(['review_scores_rating'], axis=1)
 # Get only review_scores_rating (target variable)
 y = df_coded.values[:, 0]
 
-# Create train and test sets (split 75/25)
+# Create train and test sets (split 80/20)
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=.2, random_state=23, shuffle=True)
 
